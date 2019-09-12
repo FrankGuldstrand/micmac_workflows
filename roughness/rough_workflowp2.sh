@@ -1,5 +1,5 @@
 #!/bin/bash
-export PATH=/home/buster/micmac/bin:$PATH
+export PATH=/home/buster/micmac7007/bin:$PATH # Location of MicMac
 
 #### Input and user preferences
 
@@ -9,7 +9,11 @@ BOX='[5,5,150,150]' # [mm]
 #### CHOOSE DIGITAL ELEVATION MODEL RESOLUTION (9 HIGHEST )#####
 DEMNUM="9" #Digital Elevation Model Step
 
-#### VARIABLES
+#### DATA Processing Structure
+DIR_INPUT="../input" #Directory where images are located
+DIR_OUTPUT="../output/DEMSTEP_${DEMNUM}" #Directory to place output
+
+#### KEY FILES FOR PROCESSING
 IMG=".*.JPG" # CHOOSE ALL IMAGES
 DIC="GCP.xml" # FILE WITH GCP MEASUREMENTS
 MES="Measure-S2D.xml" # GCPS MEASURED IN PHOTOS
@@ -17,8 +21,6 @@ XML="MEC-Malt/NuageImProf_STD-MALT_Etape_$DEMNUM.xml" # XML Nuage info for creat
 ZLIM="MEC-Malt/Z_Num${DEMNUM}_DeZoom1_STD-MALT.xml" # Raw DEM scale info
 ZLIMMASKTIF="MEC-Malt/Z_Num${DEMNUM}_DeZoom1_STD-MALT_MasqZminmax.tif" # MASKED DEM
 TIF="Ortho-MEC-Malt/Orthophotomosaic.tif" # ORTHOPHOTO 
-
-DIR_OUTPUT="../output/DEMSTEP_${DEMNUM}"
 
 #### Enter temporary working folder
 cd tmp
