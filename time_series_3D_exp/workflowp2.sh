@@ -60,7 +60,7 @@ rm -R tmp
 DIR_PRE=$DIR_OUTPUT
 DIR_INI=$DIR_PRE
 
-
+### START OF LOOP
 
 for N in `seq 1 $NrofIm`; do 
     
