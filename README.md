@@ -1,6 +1,5 @@
-# Physics of Volcanic Processes MicMac Workflows
+# Physics of Volcanic Processes Workflows
 
-Various workflows used in the PVP Lab. 
+Various workflows used in the preparation, running and analyzing the experiments of the PVP Lab. 
 Primarily managed by Frank Guldstrand & Håvard S Bertelsen.
 
-More to come
