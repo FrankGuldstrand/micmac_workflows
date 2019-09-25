@@ -1,0 +1,25 @@
+   <?xml version="1.0" ?>
+<Global>
+     <DicoAppuisFlottant>
+          <OneAppuisDAF>
+               <Pt>0 0 0.085</Pt>
+               <NamePt>1</NamePt>
+               <Incertitude>0.002 0.002 0.002</Incertitude>
+          </OneAppuisDAF>
+          <OneAppuisDAF>
+               <Pt>0.400 0 0.085</Pt>
+               <NamePt>2</NamePt>
+               <Incertitude>0.002 0.002 0.002</Incertitude>
+          </OneAppuisDAF>
+          <OneAppuisDAF>
+               <Pt>0.400 0.400 0.085</Pt>
+               <NamePt>3</NamePt>
+               <Incertitude>0.002 0.002 0.002</Incertitude>
+          </OneAppuisDAF>
+          <OneAppuisDAF>
+               <Pt>0 0.400 0.085</Pt>
+               <NamePt>4</NamePt>
+               <Incertitude>0.002 0.002 0.002</Incertitude>
+          </OneAppuisDAF>
+     </DicoAppuisFlottant>
+</Global>
