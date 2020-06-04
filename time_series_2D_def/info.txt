@@ -1,1 +1,2 @@
 
+Image correction is used first on the images in folder cam1. They are likely in landscape so first it rotates them before applying the image correction.
