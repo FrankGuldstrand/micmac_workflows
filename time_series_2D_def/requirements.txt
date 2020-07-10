@@ -1,2 +1,5 @@
+micmac installed
+matlab
+image processing toolbox (matlab)
 smooth2a.m
 darkb2r.m
